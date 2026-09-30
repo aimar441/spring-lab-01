@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+app:
+  mail:
+    enabled: true
+    retry-count: 3
+
+logging:
+  level:
+    kz.iitu: INFO
